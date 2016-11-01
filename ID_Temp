@@ -1,0 +1,13 @@
+tell application "Finder"
+	set myInFolder to choose folder with prompt "Select a folder"
+	set theFile to files in myInFolder whose name ends with ".indt"
+	
+	display dialog "How many files should we open?" default answer ""
+	set amnt to text returned of result
+	activate application "Adobe InDesign CS6"
+	
+	repeat amnt times
+		open theFile
+		
+	end repeat
+end tell
