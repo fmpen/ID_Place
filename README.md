@@ -1,2 +1,2 @@
-# ID_Place
-Getting inDesign to Open and Place multiple images
+README
+Getting inDesign to Open multiple layouts and place images in a directory.
